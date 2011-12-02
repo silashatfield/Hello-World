@@ -14,6 +14,6 @@
     displayHeader('Help', 'help');
 ?>
 
-<p>This page not yet implemented.</p>
+<p>This page not implemented.</p>
 
 <?php displayFooter(); ?>
