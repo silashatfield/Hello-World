@@ -1,0 +1,145 @@
+/* begin Page */
+
+img
+{
+  filter: expression(artFixPNG(this));
+}/* end Page */
+
+/* begin Box, Sheet */
+.sheet-tl
+{
+  clip: rect(auto 13px 13px auto);
+}
+
+.sheet-tr
+{
+  clip: rect(auto auto 13px 13px);
+}
+
+.sheet-bl
+{
+  clip: rect(13px 13px auto auto);
+}
+
+.sheet-br
+{
+  clip: rect(13px auto auto 13px);
+}
+
+.sheet-tc
+{
+  clip: rect(auto auto 13px auto);
+}
+
+.sheet-bc
+{
+  clip: rect(13px auto auto auto);
+}
+
+.sheet-cr
+{
+  clip: rect(auto auto auto 13px);
+}
+
+.sheet-cl
+{
+  clip: rect(auto 13px auto auto);
+}
+
+.sheet-body
+{
+  zoom: 1;
+}
+/* end Box, Sheet */
+
+/* begin Menu */
+.nav-r
+{
+  clip: rect(auto auto auto 874px);
+}
+
+/* end Menu */
+
+/* begin MenuItem */
+.hmenu a .r
+{
+  clip: rect(auto auto auto 400px);
+}
+/* end MenuItem */
+
+/* begin Layout */
+.content-layout, .content-layout-row {display: block;}
+.content-layout, .content-layout-row {zoom: 1;}
+/* end Layout */
+
+/* begin Box, Block */
+
+.block-body
+{
+  zoom: 1;
+}
+/* end Box, Block */
+
+/* begin BlockHeader */
+.blockheader .r
+{
+  clip: rect(auto auto auto 854px);
+}
+/* end BlockHeader */
+
+/* begin Box, BlockContent */
+
+.blockcontent-body
+{
+  zoom: 1;
+}
+/* end Box, BlockContent */
+
+/* begin Button */
+.button-wrapper .button-r
+{
+  clip: rect(auto auto auto 409px);
+}
+/* end Button */
+
+/* begin Box, Post */
+
+.post-body
+{
+  zoom: 1;
+}
+/* end Box, Post */
+
+/* begin PostContent */
+.postcontent
+{
+  height: 1%;
+}
+/* end PostContent */
+
+/* begin Footer */
+.footer-body
+{
+    padding-right: 0;
+  zoom:1;
+}
+
+.footer{
+  zoom:1;
+}
+
+/* end Footer */
+
+/* begin LayoutCell, content */
+.content {width: auto;}
+.content-layout .layout-cell, .content-layout .layout-cell .content-layout .layout-cell
+{
+  display: block;
+  position:relative;
+  float: left;
+  clear: right;
+}
+.content-layout .layout-cell, .content-layout .layout-cell .content-layout .layout-cell {  zoom:1; }
+.layout-cell .layout-cell{ float: none; clear: both;}
+/* end LayoutCell, content */
+
